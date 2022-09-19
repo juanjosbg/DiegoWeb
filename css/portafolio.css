@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ================================= */
+#contenedor {
+    width: 100%;
+    height: 3778px;
+    background-color: #171717;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+/* ================================= */
+/* nav */
+#navegadorbarr {
+    background-color: #EDEDED;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+}
+
+.logoBtn,
+.portBtn,
+.blogBtn,
+.contactoBtn {
+    object-fit: cover;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+@media (min-width: 1400px) {
+
+    .logoBtn,
+    .portBtn,
+    .blogBtn,
+    .contactoBtn {
+        object-fit: cover;
+        height: 60px;
+        width: 100%;
+    }
+}
+
+/* ========= */
+#lineas {
+    background-color: #171717;
+    clear: left;
+    float: left;
+    height: 5px;
+    width: 2047px;
+}
+
+/* ========= */
+#podcast {
+    background-color: #888888;
+    clear: left;
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 280px;
+}
+
+
+/* ========= */
+#video {
+    background-color: #A1A1A1;
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#fotografia {
+    background-color: #ACA8A8;
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#piedepag {
+    background-color: #EDEDED;
+    float: left;
+    height: 400px;
+    width: 2047px;
+    margin-top: 100px;
+}
+
+#infodata {
+    background-color: #EDEDED;
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 340px;
+}
+
+#linea1 {
+    background-color: #FFFFFF;
+    float: left;
+    height: 300px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#infolocation {
+    background-color: #EDEDED;
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#linea2 {
+    background-color: #FFFFFF;
+    float: left;
+    height: 300px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#redessociales {
+    background-color: #EDEDED;
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#Nosotros {
+    background-color: #EDEDED;
+    float: left;
+    height: 59px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#conact2 {
+    background-color: #E02E31;
+    clear: left;
+    float: left;
+    height: 59px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#ubicacion {
+    background-color: #EDEDED;
+    float: left;
+    height: 80px;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#facebook {
+    background-color: #EDEDED;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+
+#twitter {
+    background-color: #009DF9;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#instagram {
+    background-color: #815F0C;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#spotify {
+    background-color: #00BE27;
+    clear: left;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#Youtube {
+    background-color: #D90003;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#tiktok {
+    background-color: #FF9F40;
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#diseñoby {
+    background-color: #EDEDED;
+    clear: left;
+    float: left;
+    height: 100px;
+    width: 2047px;
+    text-align: center;
+    text-shadow: 0px 0px #EDEDED;
+    color: #171717;
+}
+
+#Contenido {
+    background-color: #171717;
+    float: left;
+    height: 900px;
+    width: 2047px;
+}
+
+#podcasts {
+    background-color: #FFFFFF;
+    float: left;
+    height: 200px;
+    width: 700px;
+    margin-top: 90px;
+    margin-left: 650px;
+}
+
+#Calibaneando {
+    background-color: #FFFFFF;
+    clear: left;
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+#Oigavea {
+    background-color: #FFFFFF;
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+#latribunapodcast {
+    background-color: #FFFFFF;
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+#contenido2 {
+    background-color: #EDEDED;
+    clear: left;
+    float: left;
+    height: 1000px;
+    width: 2047px;
+}
+
+#contenido2 {
+    background-color: #EDEDED;
+    clear: left;
+    float: left;
+    width: 2047px;
+    height: 600px;
+}
+
+#Fotografia {
+    background-color: #FFFFFF;
+    float: left;
+    height: 200px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 548px;
+}
+
+#foto1 {
+    background-color: #302E2E;
+    clear: left;
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+#foto2 {
+    background-color: #555555;
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#foto3 {
+    background-color: #2E2E2E;
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#contenido3 {
+    float: left;
+    height: 900px;
+    width: 2047px;
+}
+
+#videologo {
+    background-color: #E0E0E0;
+    float: left;
+    height: 200px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+#Videocatalogo {
+    background-color: #DEDEDE;
+    clear: left;
+    float: left;
+    height: 600px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
