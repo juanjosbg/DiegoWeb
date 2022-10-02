@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================== */
+a {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* =========================== */
+/* -- Nav -- */
+.bg-navbar {
+    background: #ededed;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* -- Contenedor -- */
+.color-cont {
+    background-color: #141714;
+    height: auto;
+}
+
+.logo-inicial img,
+#podcast video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#des1 {
+    padding: 10px;
+    text-align: justify;
+}
+
+#des1 p {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* -- Video -- */
+.video-intro video{
+    width: 100%;
+}
+
+/* -- Mision / Vision -- */
+#mision, #vision{
+    padding-top: 4vh;
+    width: 100%;
+    padding: 10px;
+}
+
+#mision img, #vision img{
+    width: 50%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+#mision p, #vision p{
+    color: #fff;
+    font-size: 17px;
+    padding-right: 10px;
+    font-weight: 300;
+    padding: 2vh;
+    text-align: left;
+}
+/*  -- Nosotros -- */
+/* -- footer -- */
+footer {
+    width: 100%;
+    background: #ededed;
+    padding: 10px;
+}

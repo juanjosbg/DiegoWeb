@@ -14,6 +14,11 @@ body {
 }
 
 /* =========================== */
+a{
+    list-style: none;
+    text-decoration: none !important;
+}
+
 ul {
     list-style: none;
 }
@@ -89,10 +94,22 @@ p {
 /* -- Videos -- */
 .color-cont-video {
     background-color: #171717;
-    height: auto;
-    clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 100%, 0 100%, 0 5%);
+    height: 105vh;
+    clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 100%, 0 100%, 0 9%);
 }
 
+.video-frame iframe {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* -- footer -- */
+footer{
+    width: 100%;
+    background: #ededed;
+    padding: 10px;
+}
 
 /* =================================== */
 /* -- @Media -- */

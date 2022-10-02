@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================== */
+a {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* =========================== */
+/* -- Nav -- */
+.bg-navbar {
+    background: #ededed;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* ========================================================= */
+/* == Pg Calibaneando ==*/
+/* Cont */
+.color-cont {
+    background-color: #171717;
+    height: auto;
+}
+
+/* -- Part of logos -- */
+.logo-inicial {
+    padding-top: 6vh;
+}
+
+.logo-inicial img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+
+#Episodio4{
+    margin-bottom: 5vh;
+}
+
+/* ========================= */
+/* -- footer -- */
+footer {
+    width: 100%;
+    background: #ededed;
+    padding: 10px;
+}
